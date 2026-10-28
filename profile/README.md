@@ -6,13 +6,34 @@
 
 ### AI Infrastructure · Agent Engineering · Governance
 
-**We build AI systems with explicit boundaries, observable decisions, and human control.**
+**Official home of We Do Care Global — AI infrastructure, agent engineering, open-source research, and a humanitarian mission.**
 
-[**Explore the website**](https://www.wedocare-global.com/) · [Engineering evidence](https://www.wedocare-global.com/evidence.html) · [Published research](https://zenodo.org/records/23217953) · [Contact](https://www.wedocare-global.com/#contact)
+We develop governable AI systems across agent security, orchestration, retrieval, evaluation, and regulated workflows. Our website connects the engineering portfolio, published software, evidence, and organizational mission in one place.
+
+### [🌐 Visit our official website — wedocare-global.com](https://www.wedocare-global.com/)
+
+[**Explore our projects**](https://www.wedocare-global.com/) · [Engineering evidence](https://www.wedocare-global.com/evidence.html) · [Research publications](https://zenodo.org/records/23217953) · [Contact](https://www.wedocare-global.com/#contact)
 
 </div>
 
 ---
+
+## Our digital ecosystem
+
+The **[official website](https://www.wedocare-global.com/)** is the central entry point to We Do Care Global. The connected resources serve different purposes:
+
+| Destination | Purpose |
+|:--|:--|
+| **[wedocare-global.com](https://www.wedocare-global.com/)** | Official organizational website, project overviews and contact |
+| [Engineering evidence](https://www.wedocare-global.com/evidence.html) | Public evidence and technical documentation; assess each claim against its underlying artifact |
+| [GitHub · active development](https://github.com/WeDoCareGlobal) | Current engineering work, including the `*-Next` repositories |
+| [GitHub · published source](https://github.com/we-do-care-global) | Source repositories associated with the published project portfolio |
+| [Zenodo · portfolio record](https://zenodo.org/records/23217953) | Archived software publications and persistent DOI references |
+| [Zenodo · author search](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Perla%2C%20Emir%22&f=allversions%3Atrue&l=list&p=1&s=10&sort=bestmatch) | Searchable records attributed to Emir Perla, including multiple versions |
+| [ORCID · Emir Perla](https://orcid.org/0009-0009-8515-2727) | Researcher identity and attributed works |
+| [DataCite Commons](https://commons.datacite.org/orcid.org/0009-0009-8515-2727) | DOI metadata and research graph linked to the ORCID iD |
+
+**How it fits together:** Official website → project and evidence pages → source code → archived releases and DOIs → researcher attribution. An archived DOI does not imply that the current development branch has been independently validated or deployed.
 
 ## Engineering portfolio
 
