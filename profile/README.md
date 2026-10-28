@@ -1,42 +1,42 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/we-do-care-global/we-do-care-global/main/docs/assets/logo.jpg" width="104" alt="We Do Care Global logo">
-</p>
+<div align="center">
 
-<h1 align="center">We Do Care Global</h1>
-<p align="center"><strong>AI Infrastructure · Agent Engineering · Governance</strong></p>
-<p align="center">Building inspectable AI systems — from agent permissions and secure tool access to retrieval, evaluation and human-controlled operations.</p>
+<img src="https://raw.githubusercontent.com/we-do-care-global/we-do-care-global/main/docs/assets/logo.jpg" alt="We Do Care Global" width="100" />
 
-<p align="center">
-  <a href="https://www.wedocare-global.com/"><strong>Website</strong></a> ·
-  <a href="https://www.wedocare-global.com/evidence.html">Evidence index</a> ·
-  <a href="https://github.com/we-do-care-global">Published source</a> ·
-  <a href="https://zenodo.org/records/23217953">Research portfolio</a> ·
-  <a href="https://www.wedocare-global.com/#contact">Contact</a>
-</p>
+# We Do Care Global
+
+### AI Infrastructure · Agent Engineering · Governance
+
+**We build AI systems with explicit boundaries, observable decisions, and human control.**
+
+[**Explore the website**](https://www.wedocare-global.com/) · [Engineering evidence](https://www.wedocare-global.com/evidence.html) · [Published research](https://zenodo.org/records/23217953) · [Contact](https://www.wedocare-global.com/#contact)
+
+</div>
 
 ---
 
-### What we build
+## Engineering portfolio
 
-| Control & governance | Retrieval & evaluation | Operational systems |
+Seven engineering tracks, including six published systems and a separate OmniGuard development track. Development repositories are **not** automatically production-certified.
+
+| System | What makes it worth exploring | Source |
 |:--|:--|:--|
-| Agent action policy, audit trails and bounded execution | Enterprise hybrid retrieval and evidence-driven agent assessment | Agent orchestration and human-reviewed regulated workflows |
+| **[AgentGuard](https://www.wedocare-global.com/agentguard.html)** | Policy-aware agent execution, tool boundaries and auditable decisions | [Repository](https://github.com/WeDoCareGlobal/agentguard-next) |
+| **[OmniGuard](https://www.wedocare-global.com/omniguard.html)** | Inspection and governance before protected AI actions | [Repository](https://github.com/WeDoCareGlobal/OmniGuard-Next) |
+| **[FoundationCentar](https://www.wedocare-global.com/foundationcentar.html)** | Orchestration with accountable, human-reviewed workflows | [Repository](https://github.com/WeDoCareGlobal/FoundationCentar-Next) |
+| **[Enterprise Hybrid-RAG](https://www.wedocare-global.com/enterprise-hybrid-rag.html)** | Lexical + vector retrieval, reciprocal-rank fusion and evaluation | [Repository](https://github.com/WeDoCareGlobal/enterprise-hybrid-rag-next) |
+| **[Agent Eval](https://www.wedocare-global.com/agent-eval.html)** | Evaluation, observability and reproducible assessment | [Repository](https://github.com/WeDoCareGlobal/agent-eval-next) |
+| **[AgentVault](https://www.wedocare-global.com/agentvault.html)** | Agent tooling, secret boundaries and controlled execution | [Repository](https://github.com/WeDoCareGlobal/AgentVault-Next) |
+| **[Pharma Intelligence OS](https://www.wedocare-global.com/pharma-intelligence-os.html)** | Pharmacovigilance workflows and regulatory intelligence with human verification | [Repository](https://github.com/WeDoCareGlobal/Pharma-Intelligence-Os-Next) |
 
-We treat **development source**, **published artifacts**, and **deployment assurance** as different forms of evidence. A working demo, a DOI or passing CI does not automatically establish production readiness.
+## The engineering difference
 
-### Explore the engineering portfolio
-
-**Seven visible development tracks:** six systems in the published portfolio, plus the separate OmniGuard development track.
-
-| Project | Engineering focus | Explore |
+| Boundary-first | Evidence-first | Human-in-control |
 |:--|:--|:--|
-| **AgentGuard** | Policy-aware agent tool access, limits and inspectable audit records | [Code](https://github.com/WeDoCareGlobal/agentguard-next) · [Overview](https://www.wedocare-global.com/agentguard.html) |
-| **OmniGuard** | Layered inspection and governance before protected actions | [Code](https://github.com/WeDoCareGlobal/OmniGuard-Next) · [Overview](https://www.wedocare-global.com/omniguard.html) |
-| **FoundationCentar** | Orchestration, accountability and human governance | [Code](https://github.com/WeDoCareGlobal/FoundationCentar-Next) · [Overview](https://www.wedocare-global.com/foundationcentar.html) |
-| **Enterprise Hybrid-RAG** | Hybrid lexical and dense retrieval, with fusion | [Code](https://github.com/WeDoCareGlobal/enterprise-hybrid-rag-next) · [Overview](https://www.wedocare-global.com/enterprise-hybrid-rag.html) |
-| **Agent Eval** | Evaluation, tracing and workflow evidence | [Code](https://github.com/WeDoCareGlobal/agent-eval-next) · [Overview](https://www.wedocare-global.com/agent-eval.html) |
-| **AgentVault** | Tool registry, secrets and bounded execution | [Code](https://github.com/WeDoCareGlobal/AgentVault-Next) · [Overview](https://www.wedocare-global.com/agentvault.html) |
-| **Pharma Intelligence OS** | Pharmacovigilance and regulatory intelligence with human verification | [Code](https://github.com/WeDoCareGlobal/Pharma-Intelligence-Os-Next) · [Overview](https://www.wedocare-global.com/pharma-intelligence-os.html) |
+| Define who or what can act, and under which policy | Separate code, test results, published artifacts and production evidence | Keep review, override and accountability visible in operational workflows |
+
+**A passing CI run is not a deployment. A DOI is not a security certification. A demo is not proof of production readiness.** We link claims to the artifact that can actually support them.
+
+## Architecture and provenance
 
 <details>
 <summary><strong>Publication and provenance — the six published systems</strong></summary>
