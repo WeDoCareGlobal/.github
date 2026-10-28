@@ -30,9 +30,9 @@ Seven engineering tracks, including six published systems and a separate OmniGua
 
 ## Research & software publications
 
-[![ORCID iD](https://img.shields.io/badge/ORCID-0009--0009--8515--2727-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-8515-2727) [![Zenodo](https://img.shields.io/badge/Zenodo-Software%20Publications-1682D4)](https://zenodo.org/records/23217953)
+[![ORCID iD](https://img.shields.io/badge/ORCID-0009--0009--8515--2727-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-8515-2727) [![Zenodo](https://img.shields.io/badge/Zenodo-Software%20Publications-1682D4)](https://zenodo.org/records/23217953) [![DataCite](https://img.shields.io/badge/DataCite-Research%20Graph-243A5E)](https://commons.datacite.org/orcid.org/0009-0009-8515-2727)
 
-Software records attributed to **Emir Perla** and We Do Care Global are indexed through [ORCID](https://orcid.org/0009-0009-8515-2727) and Zenodo/DataCite. The links below identify **publication records**, not certifications or performance validation.
+Software records attributed to **Emir Perla** and We Do Care Global are discoverable through [ORCID](https://orcid.org/0009-0009-8515-2727), [DataCite Commons](https://commons.datacite.org/orcid.org/0009-0009-8515-2727), and [Zenodo author search](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Perla%2C%20Emir%22%26f=allversions%3Atrue%26l=list%26p=1%26s=10%26sort=bestmatch). In the supplied October 2026 views, DataCite displayed **60 software works** and Zenodo returned **41 author-search results**; these are indexed records and versions, **not counts of distinct projects**. The links below identify **publication records**, not certifications or performance validation.
 
 | Published software | DOI / publication record |
 |:--|:--|
