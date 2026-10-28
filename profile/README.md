@@ -28,6 +28,23 @@ Seven engineering tracks, including six published systems and a separate OmniGua
 | **[AgentVault](https://www.wedocare-global.com/agentvault.html)** | Agent tooling, secret boundaries and controlled execution | [Repository](https://github.com/WeDoCareGlobal/AgentVault-Next) |
 | **[Pharma Intelligence OS](https://www.wedocare-global.com/pharma-intelligence-os.html)** | Pharmacovigilance workflows and regulatory intelligence with human verification | [Repository](https://github.com/WeDoCareGlobal/Pharma-Intelligence-Os-Next) |
 
+## Research & software publications
+
+[![ORCID iD](https://img.shields.io/badge/ORCID-0009--0009--8515--2727-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-8515-2727) [![Zenodo](https://img.shields.io/badge/Zenodo-Software%20Publications-1682D4)](https://zenodo.org/records/23217953)
+
+Software records attributed to **Emir Perla** and We Do Care Global are indexed through [ORCID](https://orcid.org/0009-0009-8515-2727) and Zenodo/DataCite. The links below identify **publication records**, not certifications or performance validation.
+
+| Published software | DOI / publication record |
+|:--|:--|
+| AgentGuard | [10.5281/zenodo.23247685](https://doi.org/10.5281/zenodo.23247685) |
+| AgentVault | [10.5281/zenodo.23247692](https://doi.org/10.5281/zenodo.23247692) |
+| Enterprise Hybrid-RAG | [10.5281/zenodo.23247705](https://doi.org/10.5281/zenodo.23247705) |
+| Agent Eval | [10.5281/zenodo.23247700](https://doi.org/10.5281/zenodo.23247700) |
+| Pharma Intelligence OS | [10.5281/zenodo.23247710](https://doi.org/10.5281/zenodo.23247710) |
+| FoundationCentar | [Zenodo record](https://zenodo.org/records/23174502) |
+
+**Provenance note:** ORCID may list multiple records, versions and sources for one project. We group them by software system and link representative publication records rather than treating each version as a separate product. Current development code can differ from archived releases.
+
 ## The engineering difference
 
 | Boundary-first | Evidence-first | Human-in-control |
