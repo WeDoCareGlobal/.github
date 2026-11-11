@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/we-do-care-global/we-do-care-global/main/docs/assets/logo.jpg" width="112" alt="We Do Care Global logo">
-</p>
+<div align="center">
 
 <h1 align="center">WE DO CARE GLOBAL</h1>
 <p align="center"><strong>Intelligence without blind spots.</strong></p>
