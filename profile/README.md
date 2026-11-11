@@ -18,6 +18,27 @@ We develop governable AI systems across agent security, orchestration, retrieval
 
 ---
 
+## Start here: open engineering and funding-ready research
+
+We prioritise **small, verifiable open-source deliverables** over broad claims of production readiness. Each active grant concept should state its technical problem, existing implementation evidence, planned work, licence, milestones and independent test criteria.
+
+**First proposed research track — AgentGuard Open:** a policy-enforcement interface for AI agent actions, with inspectable decision records and reproducible tests. This is a **grant concept**, not a claim that every component is already implemented or funded. [Review current development source](https://github.com/WeDoCareGlobal/agentguard-next) and [published source](https://github.com/we-do-care-global/agentguard) separately.
+
+**Related research tracks:** [AgentVault](https://github.com/WeDoCareGlobal/AgentVault-Next) for controlled execution and audit boundaries, [Agent Eval](https://github.com/WeDoCareGlobal/agent-eval-next) for reproducible evaluation, and [AgentProof](https://github.com/we-do-care-global/agentproof) for evidence tooling. Their interoperability and production status require separate verification; inclusion here does not claim they are integrated.
+
+**Funding transparency:** No grant award, benchmark result, commercial adoption or independently validated production backend is asserted by this overview. See the [evidence index](https://www.wedocare-global.com/evidence.html) for publication-versus-runtime boundaries. Publication DOIs and active source branches represent different kinds of evidence.
+
+## Repository map and naming safety
+
+| Source category | Where to look | Important distinction |
+|:--|:--|:--|
+| **Organization development** | [WeDoCareGlobal](https://github.com/WeDoCareGlobal) | Active repositories, including `*-Next`; not automatically production |
+| **Original published source** | [we-do-care-global account](https://github.com/we-do-care-global) | Historical and source-publication repos; not assumed to be current deployments |
+| **Website governance** | [Portal source and naming policy](https://github.com/WeDoCareGlobal/we-do-care-global) | Proposed canonical-source selection requires explicit deployment verification |
+| **Review in progress** | [Website provenance and rename proposal, draft PR #12](https://github.com/WeDoCareGlobal/we-do-care-global/pull/12) | Proposals only; do not treat as applied renames |
+
+Repository aliases, domains and deployments must be identified by immutable repository/project IDs and commit SHAs before any migration. Shopify is a separate storefront and must not be changed as part of website repository cleanup.
+
 ## Our digital ecosystem
 
 The **[official website](https://www.wedocare-global.com/)** is the central entry point to We Do Care Global. The connected resources serve different purposes:
