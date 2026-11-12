@@ -1,144 +1,79 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/we-do-care-global/we-do-care-global/main/docs/assets/logo.jpg" alt="We Do Care Global" width="100" />
-
-# We Do Care Global
-
-### AI Infrastructure · Agent Engineering · Governance
-
-**Official home of We Do Care Global — AI infrastructure, agent engineering, open-source research, and a humanitarian mission.**
-
-We develop governable AI systems across agent security, orchestration, retrieval, evaluation, and regulated workflows. Our website connects the engineering portfolio, published software, evidence, and organizational mission in one place.
-
-### [🌐 Visit our official website — wedocare-global.com](https://www.wedocare-global.com/)
-
-[**Explore our projects**](https://www.wedocare-global.com/) · [Engineering evidence](https://www.wedocare-global.com/evidence.html) · [Research publications](https://zenodo.org/records/23217953) · [Contact](https://www.wedocare-global.com/#contact)
-
-</div>
+<h1 align="center">WE DO CARE GLOBAL</h1>
+<p align="center"><strong>Intelligence without blind spots.</strong></p>
+<p align="center">Enterprise AI · Agent infrastructure · Security governance · Evidence-first engineering</p>
+<p align="center">
+  <a href="https://wedocare-global.com/"><strong>Explore our website</strong></a> ·
+  <a href="https://wedocare-global.com/evidence.html">Project evidence</a> ·
+  <a href="https://doi.org/10.5281/zenodo.23217953">Zenodo portfolio</a> ·
+  <a href="https://wedocare-global.com/#contact">Work with us</a>
+</p>
 
 ---
 
-## Start here: open engineering and funding-ready research
+### AI systems should be powerful, observable, and accountable.
 
-We prioritise **small, verifiable open-source deliverables** over broad claims of production readiness. Each active grant concept should state its technical problem, existing implementation evidence, planned work, licence, milestones and independent test criteria.
+We build the foundations for **governed autonomous AI**: inspecting requests, controlling agent actions, managing secrets, grounding knowledge, evaluating outcomes, and supporting domain-specific intelligence.
 
-**First proposed research track — AgentGuard Open:** a policy-enforcement interface for AI agent actions, with inspectable decision records and reproducible tests. This is a **grant concept**, not a claim that every component is already implemented or funded. [Review current development source](https://github.com/WeDoCareGlobal/agentguard-next) and [published source](https://github.com/we-do-care-global/agentguard) separately.
+Our public website presents **seven engineering tracks**: six published project tracks plus OmniGuard, an additional security-gateway development track.
 
-**Related research tracks:** [AgentVault](https://github.com/WeDoCareGlobal/AgentVault-Next) for controlled execution and audit boundaries, [Agent Eval](https://github.com/WeDoCareGlobal/agent-eval-next) for reproducible evaluation, and [AgentProof](https://github.com/we-do-care-global/agentproof) for evidence tooling. Their interoperability and production status require separate verification; inclusion here does not claim they are integrated.
+## Explore the engineering portfolio
 
-**Funding transparency:** No grant award, benchmark result, commercial adoption or independently validated production backend is asserted by this overview. See the [evidence index](https://www.wedocare-global.com/evidence.html) for publication-versus-runtime boundaries. Publication DOIs and active source branches represent different kinds of evidence.
+| System | Engineering focus | Active development | Website |
+| :--- | :--- | :--- | :--- |
+| **OmniGuard** | Security gateway, request inspection, governance | [OmniGuard-Next](https://github.com/WeDoCareGlobal/OmniGuard-Next) | [Overview](https://wedocare-global.com/omniguard.html) |
+| **AgentGuard** | Agent execution policy and inspectable audit | [agentguard-next](https://github.com/WeDoCareGlobal/agentguard-next) | [Overview](https://wedocare-global.com/agentguard.html) |
+| **AgentVault** | Secrets governance and bounded access | [AgentVault-Next](https://github.com/WeDoCareGlobal/AgentVault-Next) | [Overview](https://wedocare-global.com/agentvault.html) |
+| **FoundationCentar** | Agent orchestration and operational workflows | [FoundationCentar-Next](https://github.com/WeDoCareGlobal/FoundationCentar-Next) | [Overview](https://wedocare-global.com/foundationcentar.html) |
+| **Enterprise Hybrid-RAG** | Grounded enterprise knowledge retrieval | [enterprise-hybrid-rag-next](https://github.com/WeDoCareGlobal/enterprise-hybrid-rag-next) | [Overview](https://wedocare-global.com/enterprise-hybrid-rag.html) |
+| **Agent Eval** | Evaluation and evidence-based quality signals | [agent-eval-next](https://github.com/WeDoCareGlobal/agent-eval-next) | [Overview](https://wedocare-global.com/agent-eval.html) |
+| **Pharma Intelligence OS** | Pharmaceutical and regulatory intelligence | [Pharma-Intelligence-Os-Next](https://github.com/WeDoCareGlobal/Pharma-Intelligence-Os-Next) | [Overview](https://wedocare-global.com/pharma-intelligence-os.html) |
 
-## Repository map and naming safety
+> **Evidence over claims.** Repositories, demonstrations, DOI records, and successful CI runs are not guarantees of production readiness. Verify specific releases, commits, workflows, and deployment evidence. OmniGuard is shown as an engineering track, not as a seventh published research release.
 
-| Source category | Where to look | Important distinction |
-|:--|:--|:--|
-| **Organization development** | [WeDoCareGlobal](https://github.com/WeDoCareGlobal) | Active repositories, including `*-Next`; not automatically production |
-| **Original published source** | [we-do-care-global account](https://github.com/we-do-care-global) | Historical and source-publication repos; not assumed to be current deployments |
-| **Website governance** | [Portal source and naming policy](https://github.com/WeDoCareGlobal/we-do-care-global) | Proposed canonical-source selection requires explicit deployment verification |
-| **Review in progress** | [Website provenance and rename proposal, draft PR #12](https://github.com/WeDoCareGlobal/we-do-care-global/pull/12) | Proposals only; do not treat as applied renames |
+## The architecture, at a glance
 
-Repository aliases, domains and deployments must be identified by immutable repository/project IDs and commit SHAs before any migration. Shopify is a separate storefront and must not be changed as part of website repository cleanup.
+```text
+                       WE DO CARE GLOBAL
+                       Governed enterprise AI
+                                 |
+             +-------------------+-------------------+
+             |                   |                   |
+       TRUST & CONTROL       ORCHESTRATION       INTELLIGENCE
+             |                   |                   |
+         OmniGuard          FoundationCentar      Hybrid-RAG
+         AgentGuard           AgentVault           Agent Eval
+                                                 Pharma OS
+```
 
-## Our digital ecosystem
+*Conceptual portfolio map; not a claim that all components are deployed or integrated end-to-end.*
 
-The **[official website](https://www.wedocare-global.com/)** is the central entry point to We Do Care Global. The connected resources serve different purposes:
+## Built for trust
 
-| Destination | Purpose |
-|:--|:--|
-| **[wedocare-global.com](https://www.wedocare-global.com/)** | Official organizational website, project overviews and contact |
-| [Engineering evidence](https://www.wedocare-global.com/evidence.html) | Public evidence and technical documentation; assess each claim against its underlying artifact |
-| [GitHub · active development](https://github.com/WeDoCareGlobal) | Current engineering work, including the `*-Next` repositories |
-| [GitHub · published source](https://github.com/we-do-care-global) | Source repositories associated with the published project portfolio |
-| [Zenodo · portfolio record](https://zenodo.org/records/23217953) | Archived software publications and persistent DOI references |
-| [Zenodo · author search](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Perla%2C%20Emir%22&f=allversions%3Atrue&l=list&p=1&s=10&sort=bestmatch) | Searchable records attributed to Emir Perla, including multiple versions |
-| [ORCID · Emir Perla](https://orcid.org/0009-0009-8515-2727) | Researcher identity and attributed works |
-| [DataCite Commons](https://commons.datacite.org/orcid.org/0009-0009-8515-2727) | DOI metadata and research graph linked to the ORCID iD |
+- **Explicit boundaries:** policies, tool permissions, and human approval before autonomy.
+- **Inspectability:** decisions, retrieval, and execution should produce reviewable evidence.
+- **Release discipline:** tests, security review, operational verification, and clear acceptance criteria.
+- **Public provenance:** engineering source, archived publications, and research identity remain discoverable.
 
-**How it fits together:** Official website → project and evidence pages → source code → archived releases and DOIs → researcher attribution. An archived DOI does not imply that the current development branch has been independently validated or deployed.
-
-## Engineering portfolio
-
-Seven engineering tracks, including six published systems and a separate OmniGuard development track. Development repositories are **not** automatically production-certified.
-
-| System | What makes it worth exploring | Source |
-|:--|:--|:--|
-| **[AgentGuard](https://www.wedocare-global.com/agentguard.html)** | Policy-aware agent execution, tool boundaries and auditable decisions | [Repository](https://github.com/WeDoCareGlobal/agentguard-next) |
-| **[OmniGuard](https://www.wedocare-global.com/omniguard.html)** | Inspection and governance before protected AI actions | [Repository](https://github.com/WeDoCareGlobal/OmniGuard-Next) |
-| **[FoundationCentar](https://www.wedocare-global.com/foundationcentar.html)** | Orchestration with accountable, human-reviewed workflows | [Repository](https://github.com/WeDoCareGlobal/FoundationCentar-Next) |
-| **[Enterprise Hybrid-RAG](https://www.wedocare-global.com/enterprise-hybrid-rag.html)** | Lexical + vector retrieval, reciprocal-rank fusion and evaluation | [Repository](https://github.com/WeDoCareGlobal/enterprise-hybrid-rag-next) |
-| **[Agent Eval](https://www.wedocare-global.com/agent-eval.html)** | Evaluation, observability and reproducible assessment | [Repository](https://github.com/WeDoCareGlobal/agent-eval-next) |
-| **[AgentVault](https://www.wedocare-global.com/agentvault.html)** | Agent tooling, secret boundaries and controlled execution | [Repository](https://github.com/WeDoCareGlobal/AgentVault-Next) |
-| **[Pharma Intelligence OS](https://www.wedocare-global.com/pharma-intelligence-os.html)** | Pharmacovigilance workflows and regulatory intelligence with human verification | [Repository](https://github.com/WeDoCareGlobal/Pharma-Intelligence-Os-Next) |
-
-## Research & software publications
-
-[![ORCID iD](https://img.shields.io/badge/ORCID-0009--0009--8515--2727-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0009-8515-2727) [![Zenodo](https://img.shields.io/badge/Zenodo-Software%20Publications-1682D4)](https://zenodo.org/records/23217953) [![DataCite](https://img.shields.io/badge/DataCite-Research%20Graph-243A5E)](https://commons.datacite.org/orcid.org/0009-0009-8515-2727)
-
-Software records attributed to **Emir Perla** and We Do Care Global are discoverable through [ORCID](https://orcid.org/0009-0009-8515-2727), [DataCite Commons](https://commons.datacite.org/orcid.org/0009-0009-8515-2727), and [Zenodo author search](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Perla%2C%20Emir%22%26f=allversions%3Atrue%26l=list%26p=1%26s=10%26sort=bestmatch). In the supplied October 2026 views, DataCite displayed **60 software works** and Zenodo returned **41 author-search results**; these are indexed records and versions, **not counts of distinct projects**. The links below identify **publication records**, not certifications or performance validation.
-
-| Published software | DOI / publication record |
-|:--|:--|
-| AgentGuard | [10.5281/zenodo.23247685](https://doi.org/10.5281/zenodo.23247685) |
-| AgentVault | [10.5281/zenodo.23247692](https://doi.org/10.5281/zenodo.23247692) |
-| Enterprise Hybrid-RAG | [10.5281/zenodo.23247705](https://doi.org/10.5281/zenodo.23247705) |
-| Agent Eval | [10.5281/zenodo.23247700](https://doi.org/10.5281/zenodo.23247700) |
-| Pharma Intelligence OS | [10.5281/zenodo.23247710](https://doi.org/10.5281/zenodo.23247710) |
-| FoundationCentar | [Zenodo record](https://zenodo.org/records/23174502) |
-
-**Provenance note:** ORCID may list multiple records, versions and sources for one project. We group them by software system and link representative publication records rather than treating each version as a separate product. Current development code can differ from archived releases.
-
-## The engineering difference
-
-| Boundary-first | Evidence-first | Human-in-control |
-|:--|:--|:--|
-| Define who or what can act, and under which policy | Separate code, test results, published artifacts and production evidence | Keep review, override and accountability visible in operational workflows |
-
-**A passing CI run is not a deployment. A DOI is not a security certification. A demo is not proof of production readiness.** We link claims to the artifact that can actually support them.
-
-## Architecture and provenance
-
-<details>
-<summary><strong>Publication and provenance — the six published systems</strong></summary>
-
-| System | What it is for | Development | Published source | Product overview | Publication record |
-|---|---|---|---|---|---|
-| **AgentGuard** | Make agent tool calls subject to explicit policies, limits and inspectable audit records. | [agentguard-next](https://github.com/WeDoCareGlobal/agentguard-next) | [agentguard](https://github.com/we-do-care-global/agentguard) | [Overview](https://wedocare-global.com/agentguard.html) | [Zenodo / DOI](https://doi.org/10.5281/zenodo.23247685) |
-| **FoundationCentar** | Governance-first foundations for operational AI deployment and accountability. | [FoundationCentar-Next](https://github.com/WeDoCareGlobal/FoundationCentar-Next) | [FoundationCentar](https://github.com/we-do-care-global/FoundationCentar) | [Overview](https://wedocare-global.com/foundationcentar.html) | [Zenodo record](https://zenodo.org/records/23174502) |
-| **Enterprise Hybrid-RAG** | Connect enterprise knowledge with hybrid lexical and dense retrieval, fused through RRF. | [enterprise-hybrid-rag-next](https://github.com/WeDoCareGlobal/enterprise-hybrid-rag-next) | [enterprise-hybrid-rag](https://github.com/we-do-care-global/enterprise-hybrid-rag) | [Overview](https://wedocare-global.com/enterprise-hybrid-rag.html) | [Zenodo / DOI](https://doi.org/10.5281/zenodo.23247705) |
-| **Agent Eval** | Inspect agentic workflows through evidence-driven metrics and execution assessment. | [agent-eval-next](https://github.com/WeDoCareGlobal/agent-eval-next) | [agent-eval](https://github.com/we-do-care-global/agent-eval) | [Overview](https://wedocare-global.com/agent-eval.html) | [Zenodo / DOI](https://doi.org/10.5281/zenodo.23247700) |
-| **AgentVault** | Bring tool registration, secret management and bounded execution into a clearer control layer. | [AgentVault-Next](https://github.com/WeDoCareGlobal/AgentVault-Next) | [agentvault](https://github.com/we-do-care-global/agentvault) | [Overview](https://wedocare-global.com/agentvault.html) | [Zenodo / DOI](https://doi.org/10.5281/zenodo.23247692) |
-| **Pharma Intelligence OS** | A dedicated workspace for pharmacovigilance and regulatory-intelligence workflows with human verification. | [Pharma-Intelligence-Os-Next](https://github.com/WeDoCareGlobal/Pharma-Intelligence-Os-Next) | [pharma-intelligence-os](https://github.com/we-do-care-global/pharma-intelligence-os) | [Overview](https://wedocare-global.com/pharma-intelligence-os.html) | [Zenodo / DOI](https://doi.org/10.5281/zenodo.23247710) |
-
-The original publication records identify archived versions; they do not automatically describe the current `*-Next` branch.
-</details>
-
-### How we approach trustworthy AI engineering
-
-**Define boundaries → build observable workflows → verify evidence → review release readiness.**
-
-- **Control:** policies, human review, tool access boundaries and security assumptions
-- **Observability:** inspectable actions, retrieval evidence, evaluation and audit records
-- **Delivery:** source control, repeatable tests, explicit verification and deployment gates
-
-### Research and transparency
-
-[Development repositories](https://github.com/WeDoCareGlobal) · [Published source](https://github.com/we-do-care-global) · [Zenodo](https://zenodo.org/records/23217953) · [ORCID](https://orcid.org/0009-0009-8515-2727)
-
-The `*-Next` repositories represent active engineering; individual feature and security claims must be checked against their current tests, releases and deployment context.
+| Evidence and identity | Link |
+| :--- | :--- |
+| Website and product navigation | [wedocare-global.com](https://wedocare-global.com/) |
+| Published source archive | [we-do-care-global](https://github.com/we-do-care-global) |
+| Project evidence matrix | [Evidence matrix](https://github.com/we-do-care-global/we-do-care-global/blob/main/PROJECT_EVIDENCE_MATRIX.md) |
+| Publication portfolio | [Zenodo](https://doi.org/10.5281/zenodo.23217953) |
+| Research identity | [ORCID 0009-0009-8515-2727](https://orcid.org/0009-0009-8515-2727) |
 
 ## Engineering with a human purpose
 
-We Do Care Global connects open engineering with a humanitarian purpose.
+We Do Care Global maintains a founder-level pledge to dedicate **33% of annual corporate revenue** to financial and material assistance for vulnerable people worldwide. This is a commitment, **not a report of donations already made**. [Read the humanitarian constitution](https://github.com/we-do-care-global/we-do-care-global/blob/main/CONSTITUTION_33PCT.md).
 
-**33% of annual corporate revenue is pledged to humanitarian causes.**
+---
 
-This is a founder-level commitment, not a report of donations already made. The commitment is documented in the [humanitarian constitution](https://github.com/we-do-care-global/we-do-care-global/blob/main/CONSTITUTION_33PCT.md).
-
-## Work with us
-
-Bring a concrete challenge in AI infrastructure, agent security, knowledge retrieval, evaluation or regulated workflows.
-
-[Start a conversation](https://wedocare-global.com/#contact) · [emir@wedocare-global.com](mailto:emir@wedocare-global.com)
-
-Founder: **Emir Perla** · Sarajevo, Bosnia and Herzegovina · [ORCID 0009-0009-8515-2727](https://orcid.org/0009-0009-8515-2727)
-
+<p align="center"><strong>Built for trust. Designed for impact.</strong></p>
+<p align="center">
+  <a href="https://wedocare-global.com/">Website</a> ·
+  <a href="https://wedocare-global.com/evidence.html">Evidence</a> ·
+  <a href="https://wedocare-global.com/#contact">Contact</a>
+</p>
+<p align="center"><sub>Founded by Emir Perla · Sarajevo, Bosnia and Herzegovina</sub></p>
