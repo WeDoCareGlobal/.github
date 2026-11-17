@@ -77,3 +77,5 @@ We Do Care Global maintains a founder-level pledge to dedicate **33% of annual c
   <a href="https://wedocare-global.com/#contact">Contact</a>
 </p>
 <p align="center"><sub>Founded by Emir Perla · Sarajevo, Bosnia and Herzegovina</sub></p>
+
+</div>
